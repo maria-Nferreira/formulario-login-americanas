@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+/* TOPO */
+.topo {
+    padding: 1.20em 17em;
+    background-color: #f80032;
+}
+
+
+/* ESPACO FORMULÁRIO */
+.espaco-formulario-links {
+    width: 345px;
+    padding: 0.8em;
+    margin: 3em auto;
+    
+}
+
+/* NOME LOGIN */
+.nome-login {
+    margin: auto;
+    width: 239px;
+}
+
+
+.espaco-formulario-links .nome-login h2 {
+    color: #666666;
+    font-size: 1.5em;
+    text-indent: 1.50em;
+    background: url(../css/imagens/usuario.png) no-repeat left center;
+}
+
+.espaco-formulario-links p.frase {
+    color: #666666;
+    margin-top: 1.6em;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+
+/* FORMULÁRIO */
+.espaco-formulario-links form span {
+    color: #f80032;
+}
+
+.espaco-formulario-links form label {
+    display: block;
+    font-size: 0.88em;
+    color: #666666;
+}
+
+.espaco-formulario-links form {
+    margin-top: 1.5em;
+}
+
+.espaco-formulario-links form input {
+    width: 100%;
+    height: 3.5em;
+    margin-top: 0.5em;
+    border: solid 1px #a5a5a5;
+    border-radius: 0.5em;
+}
+
+.espaco-formulario-links form input[type="text"] {
+    margin-bottom: 1.5em;
+    
+}
+
+.espaco-formulario-links form input:hover {
+    border: solid 1px #f80032;
+}
+
+.espaco-formulario-links label.senha {
+    display: inline;
+}
+
+
+.espaco-formulario-links input[type="password"] {
+    background: url(../css/imagens/senha1.png) no-repeat left center;
+    background-position: 23em;
+    cursor: pointer;
+}
+
+/*
+.espaco-formulario-links input[type="password"]:hover {
+    background: url(../css/imagens/senha2.png) no-repeat left center;
+    background-position: 23em;
+    cursor: pointer;
+}                                                          
+*/
+
+.espaco-formulario-links input[type="submit"] {
+    color: #fff;
+    width: 100%;
+    height: 3em ;
+    font-size: 0.9em;
+    border: none;
+    cursor: pointer;
+    margin: 1.5em 0 2em 0;
+    font-weight: bolder;
+    background-color: #f80032;
+}
+
+.espaco-formulario-links input[type="submit"]:hover {
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(248, 0, 50, 0.8);
+}
+
+.espaco-formulario-links form a.esqueceu {
+    font-size: 0.89em;
+    left: 15em; 
+    float: right;
+    text-decoration: none;
+    color: #666666;
+}
+
+/* LINKS CADASTRO E POLITICA DE PRIVACIDADE */
+.espaco-links {
+    text-align: center;
+}
+
+.espaco-links span,
+.espaco-links a {
+    color: #666666;
+    font-size: 0.79em;
+}

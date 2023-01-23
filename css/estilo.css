@@ -88,7 +88,6 @@ body {
 
 
 .espaco-formulario-links input[type="password"] {
-    background: url(../css/imagens/senha1.png) no-repeat left center;
     background-position: 23em;
     cursor: pointer;
 }
